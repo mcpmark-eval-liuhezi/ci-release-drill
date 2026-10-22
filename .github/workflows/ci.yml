@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Drill message
+        run: echo "drill: basic release flow walkthrough"
